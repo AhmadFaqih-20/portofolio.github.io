@@ -1,370 +1,339 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Ahmad Faqihm Portfolio | Web Developer" />
-    <title>Ahmad Faqihm | Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio | Ahmad Faqih M</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2g0PJoReE5YY0nUlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="200">
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top" id="main-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="#home">AhmdFaqihm</a>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#main-slide">AHMDFAQIHM</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#main-slide">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">EDUCATION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- NAVBAR END -->
 
-    <header class="hero-section" id="home">
-      <div class="hero-bg"></div>
-      <div class="container hero-inner">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-7" data-aos="fade-right">
-            <span class="badge-intro">Hello, I'm</span>
-            <h1 class="hero-title">Ahmad Faqihm</h1>
-            <h2 class="hero-subtitle">Web Developer & Creative Technologist</h2>
-            <p class="hero-description">
-              Saya tertarik pada dunia pemrograman, desain, dan pengembangan web. Saya suka belajar teknologi baru,
-              membangun pengalaman digital yang menarik, dan terus berkembang dalam ekosistem developer.
-            </p>
-            <div class="hero-actions">
-              <a href="#projects" class="btn btn-primary btn-custom">View Projects</a>
-              <a href="#contact" class="btn btn-secondary btn-custom btn-outline">Let's Talk</a>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="main-slide">
+      <div class="stars"></div>
+      <div class="container profile">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 text-content">
+            <div class="badge-intro">
+              <i class="fa-solid fa-circle"></i> Hello, I'm
             </div>
-            <div class="social-links">
-              <a href="https://github.com/AhmadFaqih-20" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <h1 class="hero-title">Ahmad Faqihm</h1>
+            <h2 class="hero-subtitle">Web Developer</h2>
+            <p class="hero-description">
+              Passionate about creating beautiful, responsive web experiences. Specializing in front-end development with modern technologies. Always eager to learn and explore new possibilities in web design and development.
+            </p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/ahmad-faqihm-undefined-264647440/" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/AhmadFaqih-20" class="social-link" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/ahmad-faqihm-undefined-264647440/?isSelfProfile=true" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a href="mailto:faqih7687@gmail.com" aria-label="Email">
-                <i class="fa-solid fa-envelope"></i>
+              <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-twitter"></i>
               </a>
             </div>
           </div>
-
-          <div class="col-lg-5" data-aos="fade-left">
-            <div class="profile-card">
-              <div class="profile-frame">
-                <img src="img/Foto Faqih.png" alt="Ahmad Faqihm" class="profile-image" />
-              </div>
-              <div class="mini-info">
-                <span><i class="fa-solid fa-location-dot"></i> Tangerang, Indonesia</span>
-                <span><i class="fa-solid fa-code"></i> Frontend Learner</span>
-              </div>
+          <div class="col-lg-6 col-md-12 image-content">
+            <div class="profile-image-wrapper">
+              <img src="img/Foto Faqih.png" alt="Ahmad Faqih" class="profile-image">
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
+    <!-- HERO SECTION END -->
 
-    <main>
-      <section class="section about-section" id="about">
-        <div class="container">
-          <div class="section-heading" data-aos="fade-up">
-            <span class="eyebrow">About</span>
-            <h2>About Me</h2>
-          </div>
-
-          <div class="row align-items-center g-5">
-            <div class="col-lg-5" data-aos="fade-right">
-              <div class="about-photo-wrap">
-                <img src="img/faqih1.jpg" alt="Ahmad Faqihm photo" class="about-photo" />
-              </div>
-            </div>
-
-            <div class="col-lg-7" data-aos="fade-left">
-              <div class="about-card">
-                <h3>Hello There, <span>Ahmad Faqihm</span></h3>
-                <p class="tagline"><span class="tag">Student at LP3I Jakarta</span></p>
-                <p>
-                  Saat ini saya sedang menempuh pendidikan di program studi Manajemen Informatika. Saya memiliki minat yang besar
-                  pada teknologi komputer, khususnya web development. Saya senang belajar hal baru dan berusaha membangun kemampuan
-                  dengan pengalaman nyata melalui proyek-proyek sederhana maupun portofolio mandiri.
-                </p>
-
-                <div class="info-grid">
-                  <div class="info-item">
-                    <span class="info-label">Age</span>
-                    <span class="info-value">21</span>
-                  </div>
-                  <div class="info-item">
-                    <span class="info-label">Phone</span>
-                    <span class="info-value">+62 897-9292-691</span>
-                  </div>
-                  <div class="info-item">
-                    <span class="info-label">Email</span>
-                    <span class="info-value">faqih7687@gmail.com</span>
-                  </div>
-                  <div class="info-item">
-                    <span class="info-label">Place</span>
-                    <span class="info-value">Tangerang, Indonesia</span>
-                  </div>
-                </div>
-
-                <a href="#contact" class="btn btn-primary btn-custom">Get Resume</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section skills-section" id="skills">
-        <div class="container">
-          <div class="section-heading light" data-aos="fade-up">
-            <span class="eyebrow">Skills</span>
-            <h2>Skills & Abilities</h2>
-          </div>
-
-          <div class="row g-5 align-items-stretch">
-            <div class="col-lg-5" data-aos="fade-right">
-              <div class="skills-summary card-panel">
-                <h3>Keterampilan Mencerminkan Pengetahuan Kita</h3>
-                <p>
-                  Saya memiliki kemampuan dasar yang cukup untuk mendukung pekerjaan di bidang teknologi dan web. Saya juga terbuka
-                  terhadap kolaborasi tim, pembelajaran berkelanjutan, dan pengembangan diri di dunia digital.
-                </p>
-
-                <div class="experience-box">
-                  <div class="exp-number">0</div>
-                  <div class="exp-text">
-                    <span>Years of</span>
-                    <span>Experience</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-7" data-aos="fade-left">
-              <div class="skills-grid">
-                <div class="skill-card card-panel">
-                  <div class="skill-head">
-                    <span>HTML</span>
-                    <span>85%</span>
-                  </div>
-                  <div class="progress-bar"><span style="width: 85%"></span></div>
-                </div>
-
-                <div class="skill-card card-panel">
-                  <div class="skill-head">
-                    <span>CSS</span>
-                    <span>80%</span>
-                  </div>
-                  <div class="progress-bar"><span style="width: 80%"></span></div>
-                </div>
-
-                <div class="skill-card card-panel">
-                  <div class="skill-head">
-                    <span>JavaScript</span>
-                    <span>65%</span>
-                  </div>
-                  <div class="progress-bar"><span style="width: 65%"></span></div>
-                </div>
-
-                <div class="skill-card card-panel">
-                  <div class="skill-head">
-                    <span>Office</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress-bar"><span style="width: 90%"></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section projects-section" id="projects">
-        <div class="container">
-          <div class="section-heading" data-aos="fade-up">
-            <span class="eyebrow">Portfolio</span>
-            <h2>Featured Projects</h2>
-          </div>
-
-          <div class="row g-4">
-            <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="100">
-              <article class="project-card card-panel">
-                <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                <h3>Portfolio Website</h3>
-                <p>Personal portfolio built with HTML, CSS, and JavaScript to showcase profile, skillset, and contact details.</p>
-                <div class="project-tags">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JS</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="200">
-              <article class="project-card card-panel">
-                <div class="project-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-                <h3>Design Experiment</h3>
-                <p>Exploration on layout, spacing, branding, and creative composition for digital interfaces and landing pages.</p>
-                <div class="project-tags">
-                  <span>UI</span>
-                  <span>UX</span>
-                  <span>Creative</span>
-                </div>
-              </article>
-            </div>
-
-            <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="300">
-              <article class="project-card card-panel">
-                <div class="project-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
-                <h3>App Concept</h3>
-                <p>Concept design for a mobile or web app focused on productivity, learning support, and interaction design.</p>
-                <div class="project-tags">
-                  <span>App</span>
-                  <span>Concept</span>
-                  <span>Proto</span>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section education-section" id="education">
-        <div class="container">
-          <div class="section-heading light" data-aos="fade-up">
-            <span class="eyebrow">Education</span>
-            <h2>My Education</h2>
-          </div>
-
-          <div class="education-list">
-            <div class="education-card card-panel" data-aos="fade-up" data-aos-delay="100">
-              <div class="education-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-              <div class="education-content">
-                <h3>Diploma of Informatics Computer</h3>
-                <p>Polytechnic LP3I Jakarta</p>
-                <span class="period"><i class="fa-solid fa-calendar"></i> 2024 - Now | <em>Pursuing</em></span>
-              </div>
-            </div>
-
-            <div class="education-card card-panel" data-aos="fade-up" data-aos-delay="200">
-              <div class="education-icon"><i class="fa-solid fa-school"></i></div>
-              <div class="education-content">
-                <h3>Multimedia</h3>
-                <p>SMK As-Saadah 2</p>
-                <span class="period"><i class="fa-solid fa-calendar"></i> 2021 - 2024 | <em>Completed</em></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div class="container">
-          <div class="section-heading light" data-aos="fade-up">
-            <span class="eyebrow">Contact</span>
-            <h2>Contact Me</h2>
-          </div>
-
-          <div class="contact-wrap" data-aos="zoom-in">
-            <button class="btn btn-primary btn-custom contact-btn" data-bs-toggle="modal" data-bs-target="#contactModal">
-              Let's Chat
-              <i class="fa-solid fa-arrow-right"></i>
-            </button>
-
-            <div class="contact-methods">
-              <div class="method-card card-panel">
-                <i class="fa-solid fa-envelope"></i>
-                <p>faqih7687@gmail.com</p>
-              </div>
-              <div class="method-card card-panel">
-                <i class="fa-brands fa-whatsapp"></i>
-                <p>+62 897-9292-691</p>
-              </div>
-              <div class="method-card card-panel">
-                <i class="fa-solid fa-location-dot"></i>
-                <p>Tangerang, Indonesia</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
       <div class="container">
-        <div class="row g-4">
-          <div class="col-md-5 footer-col">
-            <h3>Ahmad Faqihm</h3>
-            <p>
-              Terima kasih telah mengunjungi portfolio saya. Saya siap belajar, berkembang, dan berkontribusi dalam pekerjaan yang
-              menantang di dunia teknologi.
-            </p>
+        <h2 class="section-title">
+          <i class="fa-solid fa-user"></i> About Me
+        </h2>
+        <div class="row align-items-center gap-4">
+          <div class="col-lg-5">
+            <div class="about-image-wrapper">
+              <img src="img/faqih1.jpg" alt="Ahmad Faqih" class="about-image">
+            </div>
           </div>
-
-          <div class="col-md-3 footer-col">
-            <h4>Quick Links</h4>
-            <ul class="footer-links">
-              <li><a href="#home"><i class="fa-solid fa-circle-chevron-right"></i> Home</a></li>
-              <li><a href="#about"><i class="fa-solid fa-circle-chevron-right"></i> About</a></li>
-              <li><a href="#skills"><i class="fa-solid fa-circle-chevron-right"></i> Skills</a></li>
-              <li><a href="#projects"><i class="fa-solid fa-circle-chevron-right"></i> Projects</a></li>
-              <li><a href="#contact"><i class="fa-solid fa-circle-chevron-right"></i> Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-4 footer-col">
-            <h4>Social Media</h4>
-            <div class="footer-socials">
-              <a href="https://github.com/AhmadFaqih-20" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/ahmad-faqihm-undefined-264647440/?isSelfProfile=true" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="mailto:faqih7687@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <h3 class="about-title">Hello There,<br>Ahmad Faqihm</h3>
+              <span class="badge-info">
+                <i class="fa-solid fa-graduation-cap"></i> Student at LP3I Jakarta
+              </span>
+              <p class="about-text">
+                Currently pursuing my diploma in Computer Science at LP3I Jakarta. With a strong foundation in multimedia from SMK As-saadah 2, I'm passionate about web development and constantly expanding my technical skills.
+              </p>
+              <div class="info-grid">
+                <div class="info-item">
+                  <span class="info-label">📅 Age</span>
+                  <span class="info-value">21</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">📱 Phone</span>
+                  <span class="info-value">+62 897-9292-691</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">✉️ Email</span>
+                  <span class="info-value">faqih7687@gmail.com</span>
+                </div>
+                <div class="info-item">
+                  <span class="info-label">📍 Location</span>
+                  <span class="info-value">Tangerang, Indonesia</span>
+                </div>
+              </div>
+              <button class="btn-primary-glass">
+                Download Resume <i class="fa-solid fa-download"></i>
+              </button>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
 
-        <div class="footer-bottom">
-          <p>&copy; <span id="currentYear"></span> Ahmad Faqihm. Made with <i class="fa-solid fa-heart"></i> and passion.</p>
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fa-solid fa-code"></i> Skills & Abilities
+        </h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="skill-category">
+              <h4 class="skill-name">
+                <i class="fa-brands fa-html5"></i> HTML5
+              </h4>
+              <p class="skill-description">Semantic markup, accessibility best practices, SEO optimization</p>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="skill-name">
+                <i class="fa-brands fa-css3-alt"></i> CSS3
+              </h4>
+              <p class="skill-description">Responsive design, animations, flexbox, grid, glassmorphism</p>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="skill-name">
+                <i class="fa-brands fa-bootstrap"></i> Bootstrap
+              </h4>
+              <p class="skill-description">Component design, responsive grids, utility classes</p>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="skill-category">
+              <h4 class="skill-name">
+                <i class="fa-brands fa-js"></i> JavaScript
+              </h4>
+              <p class="skill-description">DOM manipulation, event handling, ES6+, animations</p>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="skill-name">
+                <i class="fa-brands fa-figma"></i> UI/UX Design
+              </h4>
+              <p class="skill-description">Figma, wireframing, prototyping, user research</p>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 65%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h4 class="skill-name">
+                <i class="fa-solid fa-laptop"></i> Office Suite
+              </h4>
+              <p class="skill-description">Word, Excel, PowerPoint, documentation</p>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </section>
+    <!-- SKILLS SECTION END -->
 
+    <!-- EDUCATION SECTION -->
+    <section class="education-section" id="education">
+      <div class="container">
+        <h2 class="section-title">
+          <i class="fa-solid fa-school"></i> Education
+        </h2>
+        
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="education-card">
+              <img src="img/lp3i.png" alt="LP3I Jakarta" class="education-image">
+              <div class="education-content">
+                <h3 class="education-title">Diploma in Computer Science</h3>
+                <p class="education-school">Polytechnic LP3I Jakarta</p>
+                <span class="education-period">
+                  <i class="fa-solid fa-clock"></i> 2024 - Present | Pursuing
+                </span>
+              </div>
+            </div>
+
+            <div class="education-card">
+              <img src="img/logo smk.png" alt="SMK As-saadah 2" class="education-image">
+              <div class="education-content">
+                <h3 class="education-title">Multimedia</h3>
+                <p class="education-school">SMK As-saadah 2</p>
+                <span class="education-period">
+                  <i class="fa-solid fa-check"></i> 2021 - 2024 | Completed
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EDUCATION SECTION END -->
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container text-center">
+        <h2 class="section-title">
+          <i class="fa-solid fa-envelope"></i> Get In Touch
+        </h2>
+        <p class="contact-description">
+          Have a project in mind or just want to say hello? I'd love to hear from you! Drop me a message and let's collaborate to create something amazing.
+        </p>
+        <button class="contact-btn" data-bs-toggle="modal" data-bs-target="#contactModal">
+          <i class="fa-solid fa-paper-plane"></i> Send Me a Message
+        </button>
+      </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <!-- CONTACT MODAL -->
     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content custom-modal">
+        <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="contactModalLabel">Let's Contact Me</h5>
+            <h5 class="modal-title" id="contactModalLabel">
+              <i class="fa-solid fa-envelope"></i> Contact Me
+            </h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <form id="contactForm">
               <div class="mb-3">
-                <label for="emailInput" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="your@email.com" required />
+                <label for="emailInput" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="your@email.com" required>
               </div>
               <div class="mb-3">
                 <label for="messageInput" class="form-label">Message</label>
-                <textarea class="form-control" id="messageInput" rows="4" placeholder="Write your message..." required></textarea>
+                <textarea class="form-control" id="messageInput" rows="4" placeholder="Write your message here..." required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-custom w-100">Send Message</button>
             </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" form="contactForm" class="btn btn-primary">Send Message</button>
           </div>
         </div>
       </div>
     </div>
+    <!-- CONTACT MODAL END -->
 
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h3>Ahmad Faqih Portfolio</h3>
+            <p>
+              Thank you for visiting my personal portfolio website. Connect with me through social media and let's build something great together!
+            </p>
+          </div>
+
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h3>Quick Links</h3>
+            <ul style="list-style: none; padding: 0;">
+              <li><a href="#main-slide"><i class="fa-solid fa-arrow-right"></i> Home</a></li>
+              <li><a href="#about"><i class="fa-solid fa-arrow-right"></i> About</a></li>
+              <li><a href="#skills"><i class="fa-solid fa-arrow-right"></i> Skills</a></li>
+              <li><a href="#education"><i class="fa-solid fa-arrow-right"></i> Education</a></li>
+              <li><a href="#contact"><i class="fa-solid fa-arrow-right"></i> Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Contact Info</h3>
+            <p>
+              <i class="fa-solid fa-envelope"></i> faqih7687@gmail.com<br>
+              <i class="fa-brands fa-whatsapp"></i> +62 897-9292-691<br>
+              <i class="fa-solid fa-map-location-dot"></i> Tangerang, Indonesia
+            </p>
+            <div class="social-icons" style="margin-top: 20px;">
+              <a href="https://www.linkedin.com/in/ahmad-faqihm-undefined-264647440/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/AhmadFaqih-20" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-year">
+          <p>&copy; <span id="currentYear"></span> Ahmad Faqih. All Rights Reserved. | Designed with <i class="fa-solid fa-heart" style="color: #e94560;"></i> using Glassmorphism + Brutalism</p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
