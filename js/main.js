@@ -15,7 +15,7 @@ const setCurrent=(id)=>{
   navLinks.forEach(link=>{
     const active=link.getAttribute("href")===`#${id}`;
     link.classList.toggle("active",active);
-    if(active) link.setAttribute("aria-current","page");
+    if(active) link.setAttribute("aria-current","location");
     else link.removeAttribute("aria-current");
   });
 };
